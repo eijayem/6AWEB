@@ -1,0 +1,66 @@
+/* General section styling */
+section {
+  background: #fff7eb;
+  padding: 18px;
+  border-radius: 12px;
+  border-left: 6px solid #c89f6a;
+  box-shadow: 0 3px 10px rgba(90, 70, 50, 0.15);
+  margin-bottom: 25px;
+}
+
+/* Headings */
+h2 {
+  color: #8c5c3c;
+  margin-bottom: 12px;
+}
+
+/* Paragraphs */
+p {
+  color: #4b3f35;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 30px;
+  background: #6b4f38;
+  color: #f3e9dd;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: 0.25s ease;
+  box-shadow: 0 3px 6px rgba(70, 50, 30, 0.3);
+}
+
+button:hover {
+  background: #8b6a4a;
+}
+
+/* Inputs */
+input[type="text"] {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 2px solid #d4b895;
+  margin-bottom: 12px;
+  width: 150px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th, td {
+  border: 1px solid #c89f6a;
+  padding: 8px 12px;
+  text-align: left;
+  color: #4b3f35;
+}
+
+th {
+  background-color: #e6d7c3;
+}
