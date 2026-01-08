@@ -1,0 +1,33 @@
+<header class="banner">
+  <h1>{{ title }}</h1>
+  <p>{{ subtitle }}</p>
+  <button class="btn outline">Click here to JOIN!</button>
+</header>
+
+<section class="section narrow">
+  <h2>Fill the form below:</h2>
+
+  <form class="form">
+    <label>
+      First Name
+      <input type="text" [value]="user.firstName">
+    </label>
+
+    <label>
+      Last Name
+      <input type="text" [value]="user.lastName">
+    </label>
+
+    <label>
+      Email Address
+      <input type="email" [value]="user.email">
+    </label>
+
+    <label>
+      Academic Institution
+      <input type="text" [value]="user.institution">
+    </label>
+
+    <button class="btn">Submit</button>
+  </form>
+</section>

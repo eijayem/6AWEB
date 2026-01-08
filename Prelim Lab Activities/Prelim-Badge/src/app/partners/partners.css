@@ -1,0 +1,86 @@
+.banner {
+  background: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/NIHmZbghlilb1qj7b/videoblocks-dark-mountain-with-the-dark-clouds_bdwzawenme_thumbnail-1080_09.png') center / cover no-repeat;
+  padding: 100px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+td img.logo-img {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.section {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.btn:hover {
+  background: #f0f0f0;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn.outline:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

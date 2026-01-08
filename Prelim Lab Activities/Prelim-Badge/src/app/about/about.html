@@ -1,0 +1,15 @@
+<header class="banner">
+  <h1>{{ title }}</h1>
+  <p>{{ subtitle }}</p>
+  <button class="btn outline">{{ buttonText }}</button>
+</header>
+
+<section class="section narrow">
+  <h2>About</h2>
+
+  <p *ngFor="let text of paragraphs">
+    {{ text }}
+  </p>
+
+  <button class="btn small">Click here to get a FREE Gift!</button>
+</section>

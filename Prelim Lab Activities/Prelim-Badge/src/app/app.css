@@ -1,0 +1,35 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+.navbar .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.logo {
+  font-weight: bold;
+}

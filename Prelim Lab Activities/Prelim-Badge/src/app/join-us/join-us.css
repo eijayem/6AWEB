@@ -1,0 +1,96 @@
+.banner {
+  background: url('https://images.unsplash.com/photo-1697779027295-f3d350ce7630?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center / cover no-repeat;
+  padding: 100px 20px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.section {
+  padding: 60px 10%;
+}
+
+.section.narrow {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 12px 15px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form input:focus,
+.form textarea:focus,
+.form select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0,123,255,0.3);
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.btn.outline:hover {
+  background: #007bff;
+  color: #fff;
+}

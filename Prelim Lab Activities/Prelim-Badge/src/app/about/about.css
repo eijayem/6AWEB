@@ -1,0 +1,60 @@
+.banner {
+  background: url('https://images.unsplash.com/photo-1697779027295-f3d350ce7630?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center / cover no-repeat;
+  padding: 100px 20px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.section {
+  padding: 60px 10%;
+  text-align: left;
+}
+
+.section.narrow {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.btn.small {
+  font-size: 0.9rem;
+  padding: 8px 20px;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn.outline:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

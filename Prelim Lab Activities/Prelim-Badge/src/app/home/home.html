@@ -1,0 +1,20 @@
+<header class="hero">
+  <div class="overlay">
+    <h1>{{ title }}</h1>
+    <p>{{ subtitle }}</p>
+    <button class="btn">{{ buttonText }}</button>
+  </div>
+</header>
+
+<section class="section">
+  <h2>Join our Research Conferences around the Globe!</h2>
+
+  <div class="cards">
+    <div class="card" *ngFor="let place of locations">
+      <img [src]="place.image" [alt]="place.name">
+      <h3>{{ place.name }}</h3>
+      <p>{{ place.description }}</p>
+      <small>{{ place.field }}</small>
+    </div>
+  </div>
+</section>
