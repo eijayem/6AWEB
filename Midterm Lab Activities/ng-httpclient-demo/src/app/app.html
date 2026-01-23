@@ -1,0 +1,40 @@
+<h2>List from Main</h2>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Username</th>
+    <th>Email</th>
+    <th>Website</th>
+  </tr>
+
+  @for (user of httpusers; track user.id) {
+    <tr>
+      <td>{{ user.id }}</td>
+      <td>{{ user.name }}</td>
+      <td>{{ user.username }}</td>
+      <td>{{ user.email }}</td>
+      <td>{{ user.website }}</td>
+    </tr>
+  }
+</table>
+
+<h2>Top 5 Albums</h2>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>ID</th>
+    <th>User</th>
+    <th>Title</th>
+  </tr>
+
+  @for (album of albums; track album.id) {
+    <tr>
+      <td>{{ album.id }}</td>
+      <td>{{ album.userId }}</td>
+      <td>{{ album.title }}</td>
+    </tr>
+  }
+</table>
+<router-outlet />
